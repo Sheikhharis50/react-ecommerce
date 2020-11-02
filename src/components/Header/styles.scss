@@ -1,0 +1,36 @@
+.header {
+  height: 6.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  // background-color: rgb(26, 32, 53);
+  // color: white;
+  .wrap {
+    position: relative;
+    max-width: 1450px;
+    height: 100%;
+    margin: 0 auto;
+
+    .logo {
+      width: max-content;
+      position: absolute;
+      top: 50%;
+      left: 100px;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      transform: translateY(-50%);
+
+      img {
+        display: inline;
+        margin: 0;
+      }
+    }
+    span {
+      font-weight: bold;
+      position: relative;
+      top: 35%;
+      left: 100+40px;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+}
